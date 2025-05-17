@@ -1,4 +1,5 @@
-Hello, Git!, practice....................
+Hello, Git!
+This is a new line.i
 
-#echo "Another line after staging" >> file1.txt
 
+git reset practice
