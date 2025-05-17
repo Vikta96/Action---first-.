@@ -1,5 +1,8 @@
 Hello, Git!
-This is a new line.i
+<<<<<<< HEAD
+This is a new line
 
 
-git reset practice
+=======
+This is a new line.
+>>>>>>> 4a8fb8ff2a949eca4a3fcdfdbd65c6c2d0f9fb0a
