@@ -1,1 +1,4 @@
 Hello, Git!, practice....................
+
+echo "Another line after staging" >> file1.txt
+
