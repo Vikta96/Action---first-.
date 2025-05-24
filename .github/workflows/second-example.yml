@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: second-workflow
-        run: echo "practice"
+      - name: checkout
+        uses: actions/checkout@v4
 
-      - name: running status
-        run: echo "successful"
+      - name: list of files
+        run: ls -lrta 
+
+      - name: list of fies
+        run: cat file1.txt
