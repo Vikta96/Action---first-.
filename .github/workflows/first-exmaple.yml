@@ -1,17 +1,17 @@
 name: my first workflow
+
 on:
   push:
     branches:
-        - master
+      - master
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: welcome message
-             run: echo"my first project"
+    steps:
+      - name: welcome message
+        run: echo "my first project"
 
-            - name: learn githubaction
-             run: echo"will learn"
-            
+      - name: learn githubaction
+        run: echo "will learn"
