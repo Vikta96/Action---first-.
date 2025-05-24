@@ -1,0 +1,17 @@
+name: workflow2
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+    create:
+        runs-on: ubuntu-latest
+
+        steps:
+          - name: second-workflow
+            run: echo"practice"
+            
+          - name: running status
+            run: echo"successful"
