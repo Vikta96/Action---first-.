@@ -9,9 +9,9 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            -name: welcome message
+            - name: welcome message
              run: echo"my first project"
 
-            -name: learn githubaction
+            - name: learn githubaction
              run: echo"will learn"
             
